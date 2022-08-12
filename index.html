@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cronómetro</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- CSS (Efectos visuales) -->
+    <style>
+      * {
+          transition: all 0.3s;
+      }
+
+      body {
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 300%;
+          font-family: calibri;
+          color: rgb(0, 0, 0);
+          background: linear-gradient(skyblue,white);
+      }
+
+      .marco {
+          border-radius: 30px;
+          background: black;
+          padding: 30px;
+          border: 5px solid white;
+      }
+
+      .botones-contenedor {
+          display: flex;
+          justify-content: space-around;
+      }
+
+      .btn {
+          cursor: pointer;
+          display: inline-block;
+          font-size: 60%;
+          padding: 20px;
+      }
+    </style>
+    <div><text>¡Hora de estudiar!</text></div>
+<iframe width="475" height="250" src="https://reloj-alarma.es/embed/temporizador/#countdown=01:00:00&enabled=0&seconds=3600&theme=1&ampm=0&sound=xylophone" frameborder="0" allowfullscreen></iframe>
+  </body>
+</html>
